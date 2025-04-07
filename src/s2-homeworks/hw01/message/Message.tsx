@@ -27,14 +27,14 @@ const Message = (props: MessagePropsType) => {
                     </div>
                     <pre id={'hw1-text-' + props.message.id} className={s.messageText}>
                         {/*создаёт студент*/}
-                        I'm doing well, thank you!
+                        Hello, she didn’t do anything and rested all day, how are you?
                         {/**/}
                     </pre>
                 </div>
             </div>
             <div id={'hw1-time-' + props.message.id} className={s.time}>
                 {/*создаёт студент*/}
-                09.15
+                09.01
                 {/**/}
             </div>
         </div>
