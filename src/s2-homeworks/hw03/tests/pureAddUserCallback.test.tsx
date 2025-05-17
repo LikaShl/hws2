@@ -1,14 +1,16 @@
-import React from 'react'
-import {pureAddUserCallback} from '../HW3'
 
-let initialState: any[]
-const setName = (a: any[]) => {
+import {pureAddUserCallback, UserType} from '../HW3'
+import React from "react";
+
+let initialState: UserType[]
+const setName = (a: any) => {
     initialState = a
 }
 
 beforeEach(() => {
     initialState = []
 })
+
 
 test('name 1', () => {
     pureAddUserCallback('name', setName, initialState)
