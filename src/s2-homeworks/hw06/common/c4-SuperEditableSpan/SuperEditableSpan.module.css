@@ -1,11 +1,39 @@
 .spanBlock {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 22px;
 }
 
 .span {
+    font-family: 'Montserrat' , sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+    color: #0080FF;
+
 }
 
 .input {
+    width: 267px;
+    height: 36px;
+    border: 1px solid #D1D1D1;
+margin-bottom: 16px;
+    outline: none;
+    padding-left: 24px;
+    font-family: 'Montserrat' sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+    color: #000000;
+
+
 }
 
 .pen {
+
 }
