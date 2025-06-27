@@ -56,7 +56,7 @@ if (onChangeOption) {
                     // name, checked, value делают студенты
                     value={o.id}
                     checked={value === o.id}
-                    name={o.value}
+                    name={name}
                     onChange={onChangeCallback}
                     {...restProps}
                 />
